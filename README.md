@@ -12,9 +12,16 @@ A simple Minecraft launcher for Linux built with GTK and Python, supporting offl
 
 1.  **Dependencies:**
     Ensure you have Python 3, pip, and GTK+ 3 development files installed. On Debian/Ubuntu-based systems, you can install them using:
+
+    ## Ubuntu (or Ubuntu-based distros)
     ```bash
     sudo apt update
     sudo apt install -y python3 python3-pip python3-gi gir1.2-gtk-3.0
+    ```
+    ## Arch Linux (or Arch-based distros)
+    ```bash
+    sudo pacman -Syu
+    sudo pacman -S python python-pip python-pobject gtk-3
     ```
 
 2.  **Install Python packages:**
