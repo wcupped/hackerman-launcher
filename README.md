@@ -68,6 +68,11 @@ Hackerman Launcher stores all its data (accounts, downloads, configs, etc.) in:
 ~/.hackerman-launcher/
 ```
 
+Hackerman Launcher's config in:
+```
+~/.config/hackerman-launcher
+```
+
 ---
 
 ## 🤝 Contributing
