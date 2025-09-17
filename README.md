@@ -27,12 +27,12 @@ A simple Minecraft launcher for Linux built with GTK and Python, supporting offl
 2.  **Install Python packages:**
     First, create and activate a Python virtual environment with system site packages enabled to access GTK bindings:
     ```bash
-    python3 -m venv .venv --system-site-packages
+    python3 -m venv .venv
     . .venv/bin/activate
     ```
     Then, install the required packages:
     ```bash
-    pip install requests minecraft-launcher-lib
+    pip install minecraft-launcher-lib
     ```
 
 3.  **Run the launcher:**
