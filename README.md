@@ -1,52 +1,105 @@
-# Hackerman Minecraft Launcher
+# 💻 Hackerman Launcher
 
-A simple Minecraft launcher for Linux built with GTK and Python, supporting offline accounts.
+<image src="https://github.com/user-attachments/assets/824e86fa-343e-4a22-941f-0458cf4cb03e" width=164px id="img"/>
 
-## Features
+_The minimalist, open-source Minecraft launcher for Linux and tinkerers._
 
-*   **Offline Account Management:** Add and manage offline Minecraft accounts.
-*   **Version Selection:** Select different Minecraft versions from Mojang's official manifest.
-*   **Configuration Saving:** Automatically saves and loads selected accounts and versions.
+---
 
-## Setup and Running
+Welcome! Hackerman Launcher is a lightweight, no-nonsense Minecraft launcher designed for Linux users who want a simple, offline-friendly alternative to the big-name launchers. If you want to manage multiple accounts, easily swap Minecraft versions, and just get playing without the bloat, this project is for you.
 
-1.  **Dependencies:**
-    Ensure you have Python 3, pip, and GTK+ 3 development files installed. On Debian/Ubuntu-based systems, you can install them using:
+---
 
-    ## Ubuntu (or Ubuntu-based distros)
-    ```bash
-    sudo apt update
-    sudo apt install -y python3 python3-pip python3-gi gir1.2-gtk-3.0
-    ```
-    ## Arch Linux (or Arch-based distros)
-    ```bash
-    sudo pacman -Syu
-    sudo pacman -S python python-pip python-pobject gtk-3
-    ```
+## ✨ Why Hackerman Launcher?
 
-2.  **Install Python packages:**
-    First, create and activate a Python virtual environment with system site packages enabled to access GTK bindings:
-    ```bash
-    python3 -m venv .venv
-    . .venv/bin/activate
-    ```
-    Then, install the required packages:
-    ```bash
-    pip install minecraft-launcher-lib
-    ```
+- **Offline account support:** No Microsoft account? No problem.
+- **Choose your version:** Instantly grab any official Minecraft version thanks to Mojang’s manifest.
+- **Simple config:** Your accounts, versions, and settings are saved automatically.
+- **Open source:** Tweak it, fork it, break it—your call!
 
-3.  **Run the launcher:**
-    Make sure your virtual environment is activated, then run:
-    ```bash
-    python3 launcher.py
-    ```
+---
 
-## Project Structure
+## 🚀 Quickstart
 
-The launcher stores its data (accounts, downloaded versions, assets, libraries, and configuration) in `~/.hackerman-launcher/`.
+> _Note: This launcher is for Linux. It might work elsewhere!_
 
-## Next Steps (Planned)
+### 1. System dependencies
 
-*   Install Forge, Fabric, OptiFine, and ForgeOptiFine for selected Minecraft versions.
-*   Implement actual game launching logic.
-*   Add game settings and user feedback mechanisms.
+You’ll need Python 3, pip, and GTK+ 3 development files. Here’s how to get them:
+
+**Debian/Ubuntu:**
+```bash
+sudo apt update
+sudo apt install -y python3 python3-pip python3-gi gir1.2-gtk-3.0
+```
+
+**Arch/Manjaro:**
+```bash
+sudo pacman -Syu
+sudo pacman -S python python-pip python-gobject gtk-3
+```
+
+### 2. Set up your Python virtual environment
+
+```bash
+python3 -m venv .venv
+. .venv/bin/activate
+```
+
+### 3. Install Python dependencies
+
+```bash
+pip install minecraft-launcher-lib
+```
+
+### 4. Launch Hackerman!
+
+```bash
+python3 launcher.py
+```
+
+---
+
+## 🗂️ Where’s my stuff?
+
+Hackerman Launcher stores all its data (accounts, downloads, configs, etc.) in:
+
+```
+~/.hackerman-launcher/
+```
+
+---
+
+## 🤝 Contributing
+
+PRs, bug reports, and ideas are all welcome! Want to add features? Find a bug? Just want to say hi?  
+Open an issue or PR and let’s make Minecraft on Linux awesome together.
+
+---
+
+## 🙋 FAQ
+
+**Q: Is this safe for my Mojang/Microsoft account?**  
+A: This launcher currently only supports offline accounts. No credentials are sent anywhere.
+
+**Q: Can I use mods?**  
+A: Not yet—but it’s on the roadmap!
+
+**Q: Will you support Windows/macOS?**  
+A: Maybe. Try it and let us know what breaks.
+
+---
+
+## 📜 License
+
+MIT. Use Minecraft that way as you want.
+
+---
+
+## 🦸‍♂️ Credits
+
+Made by [wcupped](https://github.com/wcupped) and the open-source community.
+
+---
+
+> _“You’re a real Minecraft player now.”_
