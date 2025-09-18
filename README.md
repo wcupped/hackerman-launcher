@@ -42,7 +42,7 @@ sudo pacman -S python python-pip python-gobject gtk-3
 ### 2. Set up your Python virtual environment
 
 ```bash
-python3 -m venv .venv
+python -m venv .venv
 . .venv/bin/activate
 ```
 
@@ -55,7 +55,7 @@ pip install minecraft-launcher-lib
 ### 4. Launch Hackerman!
 
 ```bash
-python3 launcher.py
+python launcher.py
 ```
 
 ---
