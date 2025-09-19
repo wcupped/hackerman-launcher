@@ -100,10 +100,10 @@ Open an issue or PR and let’s make Minecraft on Linux awesome together.
 A: This launcher currently only supports offline accounts. No credentials are sent anywhere.
 
 **Q: Can I use mods?**  
-A: Not yet—but it’s on the roadmap!
+A: Of course!
 
 **Q: Will you support Windows/macOS?**  
-A: Maybe. Try it and let us know what breaks.
+A: Not yet.
 
 ---
 
