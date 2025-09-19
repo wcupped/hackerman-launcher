@@ -22,14 +22,13 @@ Welcome! Hackerman Launcher is a lightweight, no-nonsense Minecraft launcher des
 ## 📸 Screenshots
 
 ### Account Management
+## *Add and manage offline Minecraft accounts with a clean, simple interface.*
+
 ![Account management UI](assets/account.png)
 
-*Add and manage offline Minecraft accounts with a clean, simple interface.*
-
 ### Game Launching
+## *Select your desired Minecraft version and launch the game instantly.*
 ![Game launching UI](assets/game.png)
-
-*Select your desired Minecraft version and launch the game instantly.*
 
 ---
 
