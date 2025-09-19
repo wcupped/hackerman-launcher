@@ -116,7 +116,7 @@ MIT. Use Minecraft that way as you want.
 
 ## 🦸‍♂️ Credits
 
-Made by [wcupped](https://github.com/wcupped) and the open-source community.
+Made by [wcupped](https://github.com/wcupped).
 
 ---
 
