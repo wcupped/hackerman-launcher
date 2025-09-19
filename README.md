@@ -6,7 +6,7 @@ _The minimalist, open-source Minecraft launcher for Linux and tinkerers._
 
 ---
 
-Welcome! Hackerman Launcher is a lightweight, no-nonsense Minecraft launcher designed for Linux users who want a simple, offline-friendly alternative to the big-name launchers. If you want to manage multiple accounts, easily swap Minecraft versions, and just get playing without the bloat, this project is for you.
+Welcome! Hackerman Launcher is a lightweight, no-nonsense Minecraft launcher designed for Linux users who want a simple, offline-friendly alternative to the big-name launchers. If you want to manage accounts and versions without bloat, you’re in the right place.
 
 ---
 
@@ -16,6 +16,18 @@ Welcome! Hackerman Launcher is a lightweight, no-nonsense Minecraft launcher des
 - **Choose your version:** Instantly grab any official Minecraft version thanks to Mojang’s manifest.
 - **Simple config:** Your accounts, versions, and settings are saved automatically.
 - **Open source:** Tweak it, fork it, break it—your call!
+
+---
+
+## 📸 Screenshots
+
+### Account Management
+![Account management UI](assets/account.png)
+*Add and manage offline Minecraft accounts with a clean, simple interface.*
+
+### Game Launching
+![Game launching UI](assets/game.png)
+*Select your desired Minecraft version and launch the game instantly.*
 
 ---
 
